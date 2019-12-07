@@ -1,0 +1,10 @@
+CREATE TABLE `google_auth` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`fname` varchar(20) DEFAULT NULL,
+`lname` varchar(20) DEFAULT NULL,
+`email` varchar(100) DEFAULT NULL,
+`username` varchar(20) DEFAULT NULL,
+`password` varchar(250) DEFAULT NULL,
+`googlecode` varchar(20) DEFAULT NULL,
+PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
